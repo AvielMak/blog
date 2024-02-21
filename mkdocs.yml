@@ -1,4 +1,4 @@
-site_name: AvielMak
+site_name: Aviel Makmal
 site_author: Aviel Makmal
 site_description: >-
   Notes about my career, thoughts and ideas.
@@ -126,8 +126,8 @@ markdown_extensions:
 nav:
   - Home: 
     - Introductions: 'index.md'
-  # - Writing:
-    # - "writing/index.md"
+  - Writing:
+    - "writing/index.md"
   # - Contact: 'contact.md'
   
 plugins:
