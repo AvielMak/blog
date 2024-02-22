@@ -5,3 +5,4 @@ I decided to write a blog to share my thoughts, experiences, and knowledge I gai
 ## Talks and Presentations
 
 - [Lighting Talk: You Don't Need ML for That](https://youtu.be/I1jl65cjeow?si=0m7tWl21kmIWGkb7)
+- [Medium Article (Agoda Engineering Blog): What we do on the data science team](https://medium.com/agoda-engineering/what-we-do-on-the-data-science-team-ba2bbb218728)
