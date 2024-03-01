@@ -11,9 +11,7 @@ authors:
   - Aviel
 ---
 
-# Vowpal Wabbit, I Hate You (Lessons I learned from using Vowpal Wabbit)
-
-![vw_logo](https://github.com/AvielMak/blog/blob/main/docs/assets/vw_logo.svg){ align=left }
+![vw_logo](https://raw.githubusercontent.com/AvielMak/blog/c871ec1c0e0d3bad49ae5ea7465eb3f31bde923c/docs/assets/vw_logo.svg){: style="height:350px;width:350px" }
 
 !!! warning "Vowpal Wabbit is a great tool"
 
