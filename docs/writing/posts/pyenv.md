@@ -24,7 +24,7 @@ In this guide, we'll walk through setting up a Python project named `Hummus_opti
 
 Ensure Pyenv is installed on your system to manage Python versions. Follow the installation instructions provided in the initial part of this guide.
 
-## Installation on Linux and macOS:
+#### Installation on Linux and macOS:
 ```bash
 curl https://pyenv.run | bash
 ```
@@ -37,14 +37,14 @@ eval "$(pyenv init --path)"
 eval "$(pyenv virtualenv-init -)"
 ```
 
-## Installation on Windows:
+#### Installation on Windows:
 For Windows, use pyenv-win:
 ```bash
 pip install pyenv-win --target %USERPROFILE%\.pyenv
 ```
 Then, add `%USERPROFILE%\.pyenv\pyenv-win\bin` and `%USERPROFILE%\.pyenv\pyenv-win\shims` to your system's environment variables.
 
-### Side Quest: Install different Python versions
+#### Side Quest: Install different Python versions
 
 With Pyenv installed, you can now install any version of Python you need. For example, to install Python 3.9.1:
 
@@ -57,7 +57,7 @@ And to set it as the global version:
 pyenv global 3.9.1
 ```
 
-### Setting a Local Python Version for a Project:
+#### Setting a Local Python Version for a Project:
 
 Navigate to the project directory and set the local Python version:
 
@@ -87,7 +87,7 @@ source .venv/bin/activate  # On Linux/macOS
 
 Poetry is a tool for dependency management and packaging in Python. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.
 
-## Installation:
+#### Installation:
 ```bash
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
 ```
@@ -105,7 +105,7 @@ poetry init --name Hummus_optimization --dependency numpy:^1.19.2 --dependency s
 
 This command also adds `numpy` and `scipy` as project dependencies.
 
-## Project Structure
+#### Project Structure
 
 Create the following project structure:
 
@@ -130,7 +130,7 @@ mkdir hummus tests
 touch hummus/__init__.py hummus/optimizer.py tests/__init__.py tests/test_optimizer.py
 ```
 
-## Sample Code
+#### Sample Code
 
 Add this sample code to `hummus/optimizer.py`:
 
@@ -147,7 +147,7 @@ def optimize_hummus(taste_preference, texture_preference):
     return (taste_score + texture_score) / 2
 ```
 
-## Running the Project
+### Running the Project
 
 Activate the Poetry-managed virtual environment:
 
@@ -177,7 +177,7 @@ Optimized Hummus Score: 92.5
 
 
 
-## Adding Dependencies
+### Adding Dependencies
 
 To add more dependencies:
 
